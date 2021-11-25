@@ -1,0 +1,54 @@
+.section {
+    display: flex;
+    width: 100%;
+}
+div {
+    margin: 5px;
+    padding: 4px;
+    background-color: darkslateblue;
+}
+.keyboard-key {
+    text-align: center;
+    background-color: yellow;
+    width: 30px;
+}
+.clear {
+    background-color: yellow;
+}
+.space {
+    width: 30px;
+}
+.action {
+    width: 65%;
+}
+.history {
+    width: 35%;
+}
+.operators {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.digitRow {
+    display: flex;
+    justify-content: space-between;
+}
+.result {
+    display: flex;
+    background-color: white;
+}
+.result-display {
+    display: flex;
+    background-color: white;
+    justify-content: right;
+}
+.commands {
+    display: flex;
+    width: 100%;
+}
+.result-list .result .keyboard {
+    width: 100%;
+}
+.result-field {
+    background-color: white;
+}

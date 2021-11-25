@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Kalkulator</title>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="style/style.css">
+        <script type="module" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="section">
+            <div class="action">
+
+                <div class="result">
+                    <div class="result-display">
+                        <div id="equation-display" class="result-display">equation</div>
+                        <div class="result-display">=</div>
+                        <div id="value-display" class="result-display">NaN</div>
+                    </div>
+                </div>
+                <div class="keyboard">
+                    <div class="operators">
+                        <div class="keyboard-key" id="operation-add-key">+</div>
+                        <div class="keyboard-key" id="operation-subtract-key">-</div>
+                        <div class="keyboard-key" id="operation-multiply-key">*</div>
+                        <div class="keyboard-key" id="operation-divide-key">/</div>
+                        <div class="keyboard-key" id="operation-modulo-key">%</div>
+                    </div>
+                    <div class="digits">
+                        <div class="digitRow">
+                            <div class="keyboard-key" id="digit-9-key">9</div>
+                            <div class="keyboard-key" id="digit-8-key">8</div>
+                            <div class="keyboard-key" id="digit-7-key">7</div>
+                            <div class="space">&nbsp</div>
+                        </div>
+                        <div class="digitRow">
+                            <div class="keyboard-key" id="digit-6-key">6</div>
+                            <div class="keyboard-key" id="digit-5-key">5</div>
+                            <div class="keyboard-key" id="digit-4-key">4</div>
+                            <div class="keyboard-key" id="dot-key">.</div>
+                        </div>
+                        <div class="digitRow">
+                            <div class="keyboard-key" id="digit-3-key">3</div>
+                            <div class="keyboard-key" id="digit-2-key">2</div>
+                            <div class="keyboard-key" id="digit-1-key">1</div>
+                            <div class="keyboard-key" id="digit-0-key">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="history">
+                <div class="commands">
+                    <div class="clear" id="clear-key">Nowe równanie</div>
+                </div>
+                <div class="result-list"></div>
+            </div>
+        </div>
+    </body>
+</html>
